@@ -7,4 +7,4 @@
 
 | Day | Puzzle                                                            | Solution                             |
 | --: | :---------------------------------------------------------------- | :----------------------------------- |
-|   1 | [](https://adventofcode.com/2023/day/1)           | [aoc2023_day01.py](aoc2022_day01.py) |
+|   1 | [](https://adventofcode.com/2023/day/1)           | [aoc2023_day01.py](aoc2023_day01.py) |
