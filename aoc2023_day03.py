@@ -4,7 +4,6 @@
 """
 
 from itertools import product
-from math import prod
 
 import pytest
 
@@ -39,6 +38,20 @@ def get_neighbors(pos):
     )
 
 
+def get_outer_edge(positions):
+    min_col = min(pos[1] for pos in positions)
+    max_col = max(pos[1] for pos in positions)
+    min_row = min(pos[0] for pos in positions)
+    max_row = max(pos[0] for pos in positions)
+    for col in range(min_col - 1, max_col + 2):
+        yield min_row - 1, col
+    for row in range(min_row, max_row + 1):
+        yield row, min_col - 1
+        yield row, max_col + 1
+    for col in range(min_col - 1, max_col + 2):
+        yield max_row + 1, col
+
+
 def number_from_digit_coordinates(grid, digit_coordinates):
     return int("".join(grid[i][j] for (i, j) in digit_coordinates))
 
@@ -48,23 +61,22 @@ def day03_part1(data):
     return sum(
         number_from_digit_coordinates(grid, number)
         for number in numbers
-        if any(
-            any(neighbor in symbols for neighbor in get_neighbors(digit))
-            for digit in number
-        )
+        if symbols & set(get_outer_edge(number))
     )
 
 
 def day03_part2(data):
     grid, numbers, symbols = data
-    star_symbols = [(i, j) for (i, j) in symbols if grid[i][j] == "*"]
     ans = 0
-    for pos in star_symbols:
-        neighbors = set(get_neighbors(pos))
+    for symbol in symbols:
+        i, j = symbol
+        if grid[i][j] != "*":
+            continue
+        symbol_neighbors = set(get_neighbors(symbol))
         adjacent_numbers = [
             number_from_digit_coordinates(grid, number)
             for number in numbers
-            if set(number) & neighbors
+            if set(number) & symbol_neighbors
         ]
         if len(adjacent_numbers) > 1:
             # this is a gear ratio
