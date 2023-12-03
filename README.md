@@ -8,4 +8,5 @@
 | Day | Puzzle                                                            | Solution                             |
 | --: | :---------------------------------------------------------------- | :----------------------------------- |
 |   1 | [Trebuchet?!](https://adventofcode.com/2023/day/1)                | [aoc2023_day01.py](aoc2023_day01.py) |
-|   2 | [Cube Conundrum](https://adventofcode.com/2023/day/2)             | [aoc2023_day01.py](aoc2023_day02.py) |
+|   2 | [Cube Conundrum](https://adventofcode.com/2023/day/2)             | [aoc2023_day02.py](aoc2023_day02.py) |
+|   3 | [Gear Ratios](https://adventofcode.com/2023/day/3)                | [aoc2023_day03.py](aoc2023_day03.py) |
