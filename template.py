@@ -9,7 +9,7 @@ import pytest
 
 def parse_input(file_name):
     with open(file_name, "r", encoding="ascii") as data_file:
-        return data_file.read()
+        return data_file.read().splitlines()
 
 
 def day00_part1(data):

@@ -7,4 +7,5 @@
 
 | Day | Puzzle                                                            | Solution                             |
 | --: | :---------------------------------------------------------------- | :----------------------------------- |
-|   1 | [](https://adventofcode.com/2023/day/1)           | [aoc2023_day01.py](aoc2023_day01.py) |
+|   1 | [Trebuchet?!](https://adventofcode.com/2023/day/1)                | [aoc2023_day01.py](aoc2023_day01.py) |
+|   2 | [Cube Conundrum](https://adventofcode.com/2023/day/2)             | [aoc2023_day01.py](aoc2023_day02.py) |
