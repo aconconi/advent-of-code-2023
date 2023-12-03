@@ -3,7 +3,6 @@
     Day 01: Trebuchet?!
 """
 
-# pylint: skip-file
 import re
 import pytest
 
