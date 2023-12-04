@@ -59,7 +59,10 @@ def day04_part2(cards):
         quantity[current_card_id] += 1
         stack.extend(
             below
-            for below in range(current_card_id + 1, current_card_id + matches[current_card_id] + 1)
+            for below in range(
+                current_card_id + 1,
+                current_card_id + matches[current_card_id] + 1
+            )
             if below <= max_card_id
         )
     return sum(quantity.values())
