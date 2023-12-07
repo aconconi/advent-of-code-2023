@@ -5,9 +5,10 @@
 > any programming language you like. People use them as a speed contest, interview prep,
 > company training, university coursework, practice problems, or to challenge each other.
 
-| Day | Puzzle                                                            | Solution                             |
-| --: | :---------------------------------------------------------------- | :----------------------------------- |
-|   1 | [Trebuchet?!](https://adventofcode.com/2023/day/1)                | [aoc2023_day01.py](aoc2023_day01.py) |
-|   2 | [Cube Conundrum](https://adventofcode.com/2023/day/2)             | [aoc2023_day02.py](aoc2023_day02.py) |
-|   3 | [Gear Ratios](https://adventofcode.com/2023/day/3)                | [aoc2023_day03.py](aoc2023_day03.py) |
-|   4 | [Scratchcards](https://adventofcode.com/2023/day/4)               | [aoc2023_day04.py](aoc2023_day04.py) |
+| Day | Puzzle                                                                | Solution                             |
+| --: | :-------------------------------------------------------------------- | :----------------------------------- |
+|   1 | [Trebuchet?!](https://adventofcode.com/2023/day/1)                    | [aoc2023_day01.py](aoc2023_day01.py) |
+|   2 | [Cube Conundrum](https://adventofcode.com/2023/day/2)                 | [aoc2023_day02.py](aoc2023_day02.py) |
+|   3 | [Gear Ratios](https://adventofcode.com/2023/day/3)                    | [aoc2023_day03.py](aoc2023_day03.py) |
+|   4 | [Scratchcards](https://adventofcode.com/2023/day/4)                   | [aoc2023_day04.py](aoc2023_day04.py) |
+|   5 | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)| [aoc2023_day05.py](aoc2023_day05.py) |
