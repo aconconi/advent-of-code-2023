@@ -13,3 +13,4 @@
 |   4 | [Scratchcards](https://adventofcode.com/2023/day/4)                   | [aoc2023_day04.py](aoc2023_day04.py) |
 |   5 | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)| [aoc2023_day05.py](aoc2023_day05.py) |
 |   6 | [Wait For It](https://adventofcode.com/2023/day/6)                    | [aoc2023_day06.py](aoc2023_day06.py) |
+|   7 | [Camel Cards](https://adventofcode.com/2023/day/7)                    | [aoc2023_day07.py](aoc2023_day07.py) |
