@@ -15,3 +15,4 @@
 |   6 | [Wait For It](https://adventofcode.com/2023/day/6)                    | [aoc2023_day06.py](aoc2023_day06.py) |
 |   7 | [Camel Cards](https://adventofcode.com/2023/day/7)                    | [aoc2023_day07.py](aoc2023_day07.py) |
 |   8 | [Camel Cards](https://adventofcode.com/2023/day/8)                    | [aoc2023_day08.py](aoc2023_day08.py) |
+|   9 | [Mirage Maintenance](https://adventofcode.com/2023/day/9)             | [aoc2023_day09.py](aoc2023_day09.py) |
