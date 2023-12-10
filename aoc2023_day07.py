@@ -8,13 +8,13 @@ from collections import Counter
 import pytest
 
 CARDS_COUNT_RANK = [
-    ([5], 7),              # five of a kind
-    ([1, 4], 6),           # four of a kind
-    ([2, 3], 5),           # full house
-    ([1, 1, 3], 4),        # three of a kind
-    ([1, 2, 2], 3),        # two pair
-    ([1, 1, 1, 2], 2),     # one pair
-    ([1, 1, 1, 1, 1], 1)   # high card
+    (5,),  # five of a kind
+    (4, 1),  # four of a kind
+    (3, 2),  # full house
+    (3, 1, 1),  # three of a kind
+    (2, 2, 1),  # two pair
+    (2, 1, 1, 1),  # one pair
+    (1, 1, 1, 1, 1),  # high card
 ]
 
 
@@ -27,23 +27,21 @@ def parse_input(file_name):
         return [parse_line(line) for line in data_file.read().splitlines()]
 
 
-def hand_rank(hand: str, jokers=False) -> tuple[int, tuple[int, ...]]:
+def hand_rank(hand: str, use_jokers=False) -> tuple[tuple[int, ...], tuple[int, ...]]:
     c = Counter(hand)
-    if jokers and 0 < (num_jokers := c["J"]) < 5:
+
+    if use_jokers and 0 < (num_jokers := c["J"]) < 5:
         del c["J"]
         most_common_non_joker, _ = c.most_common(1)[0]
         c[most_common_non_joker] += num_jokers
-    cards_count = sorted(c.values())
 
-    hand_type = next(
-        t for pattern, t in CARDS_COUNT_RANK if cards_count == pattern
-    )
-
+    hand_type = tuple(sorted(c.values(), reverse=True))
     card_ranks = tuple(
-        ("J23456789TQKA" if jokers else "23456789TJQKA").index(card) for card in hand
+        ("J23456789TQKA" if use_jokers else "23456789TJQKA").index(card)
+        for card in hand
     )
 
-    return (hand_type, card_ranks)
+    return hand_type, card_ranks
 
 
 def day07_part1(data):
@@ -52,7 +50,7 @@ def day07_part1(data):
 
 
 def day07_part2(data):
-    sorted_hands = sorted(data, key=lambda x: (hand_rank(x[0], jokers=True)))
+    sorted_hands = sorted(data, key=lambda x: (hand_rank(x[0], use_jokers=True)))
     return sum(i * bid for i, (hand, bid) in enumerate(sorted_hands, start=1))
 
 
