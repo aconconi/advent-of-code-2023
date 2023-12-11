@@ -1,4 +1,4 @@
-# My solutions for [Advent of Code 2022](https://adventofcode.com/2023)
+# My solutions for [Advent of Code 2023](https://adventofcode.com/2023)
 
 > [Advent of Code](https://adventofcode.com/2023/about) is an Advent calendar of small
 > programming puzzles for a variety of skill sets and skill levels that can be solved in
