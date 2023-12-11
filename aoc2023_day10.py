@@ -124,13 +124,13 @@ def flood_fill(graph: Graph, loop: Path) -> set[Node]:
     return area
 
 
-def day00_part1(data):
+def day10_part1(data):
     graph, start = data
     loop = find_loop(graph, start)
     return len(loop) // 2 if loop else None
 
 
-def day00_part2(data):
+def day10_part2(data):
     graph, start = data
     loop = find_loop(graph, start)
     area = flood_fill(graph, loop)
@@ -142,21 +142,21 @@ def fixture_test_data():
     return [parse_input(f"data/day10_test{num}.txt") for num in ["1", "2", "3", "4"]]
 
 
-def test_day00_part1(test_data):
-    assert day00_part1(test_data[0]) == 4
+def test_day10_part1(test_data):
+    assert day10_part1(test_data[0]) == 4
 
 
-def test_day00_part2(test_data):
-    assert day00_part2(test_data[1]) == 4
-    assert day00_part2(test_data[2]) == 8
-    assert day00_part2(test_data[3]) == 10
+def test_day10_part2(test_data):
+    assert day10_part2(test_data[1]) == 4
+    assert day10_part2(test_data[2]) == 8
+    assert day10_part2(test_data[3]) == 10
 
 
 if __name__ == "__main__":
     input_data = parse_input("data/day10.txt")
 
     print("Day 10 Part 1:")
-    print(day00_part1(input_data))  # Correct answer is 6931
+    print(day10_part1(input_data))  # Correct answer is 6931
 
     print("Day 10 Part 2:")
-    print(day00_part2(input_data))  # Correct answer is
+    print(day10_part2(input_data))  # Correct answer is
