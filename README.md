@@ -18,3 +18,4 @@
 |   9 | [Mirage Maintenance](https://adventofcode.com/2023/day/9)             | [aoc2023_day09.py](aoc2023_day09.py) |
 |  10 | [Pipe Maze](https://adventofcode.com/2023/day/10)                     | [aoc2023_day10.py](aoc2023_day10.py) |
 |  11 | [Cosmic Expansion](https://adventofcode.com/2023/day/11)              | [aoc2023_day11.py](aoc2023_day11.py) |
+|  12 | [Cosmic Expansion](https://adventofcode.com/2023/day/12)              | [aoc2023_day12.py](aoc2023_day12.py) |
