@@ -14,8 +14,8 @@
 |   5 | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)| [aoc2023_day05.py](aoc2023_day05.py) |
 |   6 | [Wait For It](https://adventofcode.com/2023/day/6)                    | [aoc2023_day06.py](aoc2023_day06.py) |
 |   7 | [Camel Cards](https://adventofcode.com/2023/day/7)                    | [aoc2023_day07.py](aoc2023_day07.py) |
-|   8 | [Camel Cards](https://adventofcode.com/2023/day/8)                    | [aoc2023_day08.py](aoc2023_day08.py) |
+|   8 | [Haunted Wasteland](https://adventofcode.com/2023/day/8)              | [aoc2023_day08.py](aoc2023_day08.py) |
 |   9 | [Mirage Maintenance](https://adventofcode.com/2023/day/9)             | [aoc2023_day09.py](aoc2023_day09.py) |
 |  10 | [Pipe Maze](https://adventofcode.com/2023/day/10)                     | [aoc2023_day10.py](aoc2023_day10.py) |
 |  11 | [Cosmic Expansion](https://adventofcode.com/2023/day/11)              | [aoc2023_day11.py](aoc2023_day11.py) |
-|  12 | [Cosmic Expansion](https://adventofcode.com/2023/day/12)              | [aoc2023_day12.py](aoc2023_day12.py) |
+|  12 | [Hot Springs](https://adventofcode.com/2023/day/12)                   | [aoc2023_day12.py](aoc2023_day12.py) |
