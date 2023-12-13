@@ -19,3 +19,4 @@
 |  10 | [Pipe Maze](https://adventofcode.com/2023/day/10)                     | [aoc2023_day10.py](aoc2023_day10.py) |
 |  11 | [Cosmic Expansion](https://adventofcode.com/2023/day/11)              | [aoc2023_day11.py](aoc2023_day11.py) |
 |  12 | [Hot Springs](https://adventofcode.com/2023/day/12)                   | [aoc2023_day12.py](aoc2023_day12.py) |
+|  13 | [Point of Incidence](https://adventofcode.com/2023/day/13)            | [aoc2023_day13.py](aoc2023_day13.py) |
