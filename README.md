@@ -20,3 +20,4 @@
 |  11 | [Cosmic Expansion](https://adventofcode.com/2023/day/11)              | [aoc2023_day11.py](aoc2023_day11.py) |
 |  12 | [Hot Springs](https://adventofcode.com/2023/day/12)                   | [aoc2023_day12.py](aoc2023_day12.py) |
 |  13 | [Point of Incidence](https://adventofcode.com/2023/day/13)            | [aoc2023_day13.py](aoc2023_day13.py) |
+|  14 | [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)      | [aoc2023_day14.py](aoc2023_day14.py) |
