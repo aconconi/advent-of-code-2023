@@ -61,7 +61,7 @@ def day15_part2(data):
 
 @pytest.fixture(autouse=True, name="test_data")
 def fixture_test_data():
-    return parse_input("data/day15.txt")
+    return parse_input("data/day15_test.txt")
 
 
 def test_day15_part1(test_data):
