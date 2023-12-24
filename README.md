@@ -25,3 +25,4 @@
 |  16 | [The Floor Will Be Lava](https://adventofcode.com/2023/day/16)        | [aoc2023_day16.py](aoc2023_day16.py) |
 |  17 | [Clumsy Crucible](https://adventofcode.com/2023/day/17)               | [aoc2023_day17.py](aoc2023_day17.py) |
 |  18 | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18)               | [aoc2023_day18.py](aoc2023_day18.py) |
+|  19 | [Aplenty](https://adventofcode.com/2023/day/19)                       | [aoc2023_day19.py](aoc2023_day19.py) |
