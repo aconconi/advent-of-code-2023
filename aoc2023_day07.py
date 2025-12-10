@@ -71,7 +71,7 @@ if __name__ == "__main__":
     input_data = parse_input("data/day07.txt")
 
     print("Day 07 Part 1:")
-    print(day07_part1(input_data))  # Correct answer is 248453531
+    print(day07_part1(input_data))
 
     print("Day 07 Part 2:")
-    print(day07_part2(input_data))  # Correct answer is 248781813
+    print(day07_part2(input_data))

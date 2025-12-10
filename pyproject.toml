@@ -1,0 +1,12 @@
+[project]
+name = "advent-of-code-2023"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.3.5",
+    "pytest>=9.0.2",
+    "ruff>=0.14.8",
+    "ty>=0.0.1a33",
+]

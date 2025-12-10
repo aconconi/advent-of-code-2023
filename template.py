@@ -4,7 +4,7 @@
 """
 
 # pylint: skip-file
-import pytest
+# import pytest
 
 
 def parse_input(file_name):
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     input_data = parse_input("data/day00_test.txt")
 
     print("Day 00 Part 1:")
-    print(day00_part1(input_data))  # Correct answer is
+    print(day00_part1(input_data))
 
     print("Day 00 Part 2:")
-    print(day00_part2(input_data))  # Correct answer is
+    print(day00_part2(input_data))
